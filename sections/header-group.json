@@ -1,0 +1,80 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "blocks": {
+        "5e153016-a9d7-46c9-a10e-30d16446793d": {
+          "type": "topbar",
+          "settings": {
+            "color_scheme": "badge-sale",
+            "show_divider": true,
+            "transparent_on_top": false,
+            "show_phone_numb": false,
+            "show_email": false,
+            "show_social_links": false,
+            "show_stores_page": false,
+            "show_currency_switcher": false,
+            "show_country_selector": false,
+            "show_language_switcher": false,
+            "alert_message": "⚡70% OFF Storewide Today Only!⚡"
+          }
+        }
+      },
+      "block_order": [
+        "5e153016-a9d7-46c9-a10e-30d16446793d"
+      ],
+      "custom_css": [
+        ".m-topbar a[href*=\"facebook\"] {order: 2;}",
+        ".social-media-links {column-gap: 30px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-e18d4728-ec98-40d7-8577-8ab241158211",
+        "color_scheme_menu": "scheme-e18d4728-ec98-40d7-8577-8ab241158211",
+        "header_design": "logo-left-menu-center",
+        "container": "container-fluid",
+        "sticky_header": "always",
+        "transparent_on_top": false,
+        "transparent_text_color": "#ffffff",
+        "logo_text": "",
+        "logo": "shopify://shop_images/160-40.svg",
+        "logo_mobile": "shopify://shop_images/160-40.svg",
+        "logo_svg": "",
+        "logo_mobile_svg": "",
+        "logo_transparent_svg": "",
+        "logo_max_width": 145,
+        "sticky_logo_max_width": 145,
+        "mobile_logo_max_width": 145,
+        "main_menu": "main-menu",
+        "secondary_menu": "",
+        "mobile_menu": "",
+        "uppercase_parent_level": false,
+        "show_menu_column_divider": true,
+        "search": "show_full",
+        "show_account_icon": true,
+        "show_cart_icon": true,
+        "show_wishlist_icon": true,
+        "show_compare_icon": false,
+        "show_currency_switcher": false,
+        "show_country_selector": false,
+        "show_language_switcher": false,
+        "mb_show_currency_switcher": false,
+        "mb_show_country_selector": false,
+        "mb_show_language_switcher": false
+      }
+    }
+  },
+  "order": [
+    "header"
+  ]
+}

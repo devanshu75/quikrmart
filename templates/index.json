@@ -1,0 +1,518 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_Bw3X8C": {
+      "type": "custom-liquid",
+      "name": "quikarmart-hero-section",
+      "settings": {
+        "custom_liquid": "<section id=\"quikrmart-hero\"\n  style='--hero-image: url(\"https://cdn.shopify.com/s/files/1/0726/8443/7601/files/heroimage.png?v=1792669903'>\n\n  <div class=\"quikrmart-hero__content\">\n\n    <p class=\"quikrmart-hero__eyebrow\">\n      WELCOME TO QUIKRMART\n    </p>\n\n    <h1 class=\"quikrmart-hero__title\">\n      <span class=\"blue\">Smart Finds.</span>\n      <span class=\"orange\">Better Everyday.</span>\n    </h1>\n\n    <p class=\"quikrmart-hero__description\">\n      Discover practical picks for your home and lifestyle.\n    </p>\n\n    <a class=\"quikrmart-hero__button\"\n       href=\"/collections/all\">\n      Shop Now <span aria-hidden=\"true\">→</span>\n    </a>\n\n  </div>\n</section>\n\n<style>\n  #quikrmart-hero,\n  #quikrmart-hero * {\n    box-sizing: border-box;\n  }\n\n  #quikrmart-hero {\n    width: 100vw;\n    margin-left: calc(50% - 50vw);\n    min-height: clamp(390px, 37vw, 560px);\n    display: flex;\n    align-items: center;\n    background-image: var(--hero-image);\n    background-size: cover;\n    background-position: center;\n    background-repeat: no-repeat;\n    overflow: hidden;\n  }\n\n  #quikrmart-hero .quikrmart-hero__content {\n    width: min(calc(100% - 48px), 1280px);\n    margin: 0 auto;\n    padding: 40px 0;\n  }\n\n  #quikrmart-hero .quikrmart-hero__eyebrow {\n    margin: 0 0 12px;\n    color: #0162EE;\n    font-family: var(--font-body-family, sans-serif);\n    font-size: 14px;\n    font-weight: 700;\n    letter-spacing: 0.06em;\n    text-transform: uppercase;\n  }\n\n  #quikrmart-hero .quikrmart-hero__title {\n    max-width: 680px;\n    margin: 0;\n    font-family: var(--font-heading-family, sans-serif);\n    font-size: clamp(42px, 4.5vw, 60px);\n    font-weight: 800;\n    line-height: 1.02;\n    letter-spacing: -0.035em;\n  }\n\n  #quikrmart-hero .blue,\n  #quikrmart-hero .orange {\n    display: block;\n  }\n\n  #quikrmart-hero .blue {\n    color: #0162EE;\n  }\n\n  #quikrmart-hero .orange {\n    color: #FEA503;\n  }\n\n  #quikrmart-hero .quikrmart-hero__description {\n    max-width: 570px;\n    margin: 16px 0 24px;\n    color: #102344;\n    font-family: var(--font-body-family, sans-serif);\n    font-size: clamp(16px, 1.5vw, 20px);\n    line-height: 1.5;\n  }\n\n  #quikrmart-hero .quikrmart-hero__button {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n    padding: 15px 30px;\n    border-radius: 999px;\n    background: #FEA503;\n    color: #FFFFFF;\n    font-family: var(--font-body-family, sans-serif);\n    font-size: 16px;\n    font-weight: 700;\n    text-decoration: none;\n    transition: background 0.2s ease;\n  }\n\n  #quikrmart-hero .quikrmart-hero__button:hover {\n        background: rgb(var(--color-button-hover));\n  }\n\n  @media screen and (max-width: 749px) {\n    #quikrmart-hero {\n      min-height: 620px;\n      align-items: flex-start;\n      background-color: #F6F9FF;\n      background-size: auto 45%;\n      background-position: right bottom;\n    }\n\n    #quikrmart-hero .quikrmart-hero__content {\n      width: calc(100% - 36px);\n      margin: 0 18px;\n      padding: 38px 0 0;\n    }\n\n    #quikrmart-hero .quikrmart-hero__title {\n      font-size: clamp(38px, 9.5vw, 54px);\n      line-height: 1.04;\n      letter-spacing: -0.03em;\n    }\n\n    #quikrmart-hero .quikrmart-hero__description {\n      max-width: 350px;\n      margin: 14px 0 20px;\n      font-size: 16px;\n    }\n\n    #quikrmart-hero .quikrmart-hero__button {\n      padding: 13px 25px;\n    }\n  }\n</style>",
+        "custom_class": ""
+      }
+    },
+    "quikrmart_category_row_xmXezK": {
+      "type": "quikrmart-category-row",
+      "blocks": {
+        "category_kzKiwB": {
+          "type": "category",
+          "settings": {
+            "title": "Home Essentials",
+            "image": "shopify://shop_images/sofa-icon.svg",
+            "collection": "",
+            "custom_link": "",
+            "circle_style": "blue"
+          }
+        },
+        "category_kAkL76": {
+          "type": "category",
+          "settings": {
+            "title": "Kitchen & Dining",
+            "image": "shopify://shop_images/cooker-icon.svg",
+            "collection": "",
+            "custom_link": "",
+            "circle_style": "blue"
+          }
+        },
+        "category_ieYQ44": {
+          "type": "category",
+          "settings": {
+            "title": "Everyday Gadgets",
+            "image": "shopify://shop_images/headphone-icon.svg",
+            "collection": "",
+            "custom_link": "",
+            "circle_style": "blue"
+          }
+        },
+        "category_QyMVUD": {
+          "type": "category",
+          "settings": {
+            "title": "Health & Fitness",
+            "image": "shopify://shop_images/dumbell-icon.svg",
+            "collection": "",
+            "custom_link": "",
+            "circle_style": "orange"
+          }
+        },
+        "category_KgFDTC": {
+          "type": "category",
+          "settings": {
+            "title": "Beauty & Personal Care",
+            "image": "shopify://shop_images/shamppoo-icon.svg",
+            "collection": "",
+            "custom_link": "",
+            "circle_style": "orange"
+          }
+        },
+        "category_FaHpmC": {
+          "type": "category",
+          "settings": {
+            "title": "Travel & Lifestyle",
+            "image": "shopify://shop_images/trolley-bag.svg",
+            "collection": "",
+            "custom_link": "",
+            "circle_style": "blue"
+          }
+        },
+        "category_UzqnTq": {
+          "type": "category",
+          "settings": {
+            "title": "Toys & Games",
+            "image": "shopify://shop_images/teddy.svg",
+            "collection": "",
+            "custom_link": "",
+            "circle_style": "orange"
+          }
+        },
+        "category_RC7Mff": {
+          "type": "category",
+          "settings": {
+            "title": "Pet Supplies",
+            "image": "shopify://shop_images/dog.png",
+            "collection": "",
+            "custom_link": "",
+            "circle_style": "orange"
+          }
+        },
+        "category_km93yw": {
+          "type": "category",
+          "settings": {
+            "title": "Car Accessories",
+            "image": "shopify://shop_images/wheel.svg",
+            "collection": "",
+            "custom_link": "",
+            "circle_style": "blue"
+          }
+        },
+        "category_mLqX46": {
+          "type": "category",
+          "settings": {
+            "title": "Stationery & Office",
+            "image": "shopify://shop_images/stationary-icon.svg",
+            "collection": "",
+            "custom_link": "",
+            "circle_style": "orange"
+          }
+        },
+        "category_iLbUhd": {
+          "type": "category",
+          "settings": {
+            "title": "Fashion & Accessories",
+            "image": "shopify://shop_images/cap.svg",
+            "collection": "",
+            "custom_link": "",
+            "circle_style": "orange"
+          }
+        },
+        "category_MnHKwa": {
+          "type": "category",
+          "settings": {
+            "title": "More Categories",
+            "collection": "",
+            "custom_link": "",
+            "circle_style": "blue"
+          }
+        }
+      },
+      "block_order": [
+        "category_kzKiwB",
+        "category_kAkL76",
+        "category_ieYQ44",
+        "category_QyMVUD",
+        "category_KgFDTC",
+        "category_FaHpmC",
+        "category_UzqnTq",
+        "category_RC7Mff",
+        "category_km93yw",
+        "category_mLqX46",
+        "category_iLbUhd",
+        "category_MnHKwa"
+      ],
+      "name": "QUIKRMART category row",
+      "settings": {
+        "heading_prefix": "Shop by",
+        "heading_accent": "Category",
+        "subtitle": "Find what you need, all in one place.",
+        "view_all_label": "View All Categories →",
+        "view_all_link": "",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "featured_collection_gyVyfJ": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".bestsellers .m-section__description {margin-top: 0;}",
+        ".bestsellers h2 {color: var(--qrm-blue); font-family: var(--font-heading-family, sans-serif); font-size: clamp(21px, 2vw, 28px); font-weight: 750; letter-spacing: -0.035em; line-height: 1.2;}"
+      ],
+      "name": "Bestsellers",
+      "settings": {
+        "heading": "Bestsellers",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "Our Most loved products, chosen by thousands of happy customer",
+        "header_alignment": "left",
+        "color_scheme": "scheme-e18d4728-ec98-40d7-8577-8ab241158211",
+        "container": "container-fluid",
+        "collection": "bestsellers",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 6,
+        "items_per_row": 6,
+        "item_gap": 30,
+        "pcard_layout": "5",
+        "pcard_image_ratio": "1/1",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": true,
+        "show_pagination": false,
+        "show_navigation": true,
+        "show_button_on_header": false,
+        "button_type": "link",
+        "button_text": "Shop more",
+        "button_style": "m-button--primary",
+        "button_size": "m-button--large",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": true,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": "bestsellers",
+        "animations": "inherit"
+      }
+    },
+    "16225125199f82d8fe": {
+      "type": "icon-box",
+      "blocks": {
+        "16225125199f82d8fe-0": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "scheme-43672b58-572f-4ea0-a62e-78b00a5fd6cf",
+            "image": "shopify://shop_images/free-shipping-truck.svg",
+            "image_by_url": "",
+            "title": "Free Shipping",
+            "description": "<p>Free Shipping for orders over £130</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "16225125199f82d8fe-1": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/easy-returns-shield-check.svg",
+            "image_by_url": "",
+            "title": "Easy Returns",
+            "description": "<p>Within 30 days for an exchange.</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "16225125199f82d8fe-2": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/customer-support-headset.svg",
+            "image_by_url": "",
+            "title": "Online Support",
+            "description": "<p>24 hours a day, 7 days a week</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        },
+        "71deafbb-3baf-443a-a087-3f7b8af7b9fa": {
+          "type": "iconbox",
+          "settings": {
+            "card_color_scheme": "",
+            "image": "shopify://shop_images/cash-on-delivery-package-check.svg",
+            "image_by_url": "",
+            "title": "Cash On Delivery",
+            "description": "<p>Pay with Multiple Credit Cards</p>",
+            "link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "sf__btn-link",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "16225125199f82d8fe-0",
+        "16225125199f82d8fe-1",
+        "16225125199f82d8fe-2",
+        "71deafbb-3baf-443a-a087-3f7b8af7b9fa"
+      ],
+      "custom_css": [
+        "h2 {color: var(--qrm-blue); font-family: var(--font-heading-family, sans-serif); font-size: clamp(21px, 2vw, 28px); font-weight: 750; letter-spacing: -0.035em; line-height: 1.2;}",
+        ".m-icon-box__icon {margin-right: 12px;}",
+        ".m-icon-box--small {border-top-width: 0;}",
+        ".m-section__description {margin-top: 0px;}"
+      ],
+      "name": "Why Shop With Us",
+      "settings": {
+        "container": "container-fluid",
+        "color_scheme": "scheme-43672b58-572f-4ea0-a62e-78b00a5fd6cf",
+        "heading": "Why Shop With Us",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "Your trust means everything to us",
+        "header_alignment": "left",
+        "item_per_row": 4,
+        "item_gap": 30,
+        "item_gap_mobile": 10,
+        "card_style": "horizontal",
+        "image_max_width": "60px",
+        "content_alignment": "start",
+        "hover_effect": "none",
+        "enable_slider": false,
+        "show_pagination": true,
+        "show_navigation": true,
+        "use_scroll_mobile": false,
+        "use_grid_column_mb": false,
+        "padding_top": 46,
+        "padding_bottom": 46,
+        "custom_class": "m-icon-box--small",
+        "animations": "inherit"
+      }
+    },
+    "featured_collection_eYNihA": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {color: var(--qrm-blue); font-family: var(--font-heading-family, sans-serif); font-size: clamp(21px, 2vw, 28px); font-weight: 750; letter-spacing: -0.035em; line-height: 1.2;}",
+        ".m-icon-box__icon {margin-right: 12px;}",
+        ".m-icon-box--small {border-top-width: 0;}",
+        ".m-section__description {margin-top: 0px;}"
+      ],
+      "name": "New Arrivals",
+      "settings": {
+        "heading": "New Arrivals",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "Fresh picks for a brighter everyday",
+        "header_alignment": "left",
+        "color_scheme": "scheme-e18d4728-ec98-40d7-8577-8ab241158211",
+        "container": "container-fluid",
+        "collection": "bestsellers",
+        "enable_flashsale": false,
+        "show_countdown": false,
+        "product_to_show": 6,
+        "items_per_row": 6,
+        "item_gap": 30,
+        "pcard_layout": "",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "hide_title": false,
+        "enable_slider": false,
+        "show_pagination": false,
+        "show_navigation": false,
+        "show_button_on_header": false,
+        "button_type": "link",
+        "button_text": "Shop more",
+        "button_style": "m-button--primary",
+        "button_size": "",
+        "infinite_load": false,
+        "max_page_load": 3,
+        "mobile_disable_slider": false,
+        "use_scroll_mobile": true,
+        "item_gap_mobile": 16,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "lifestyle_promo_banner_LBcLLT": {
+      "type": "lifestyle-promo-banner",
+      "name": "Lifestyle promo banner",
+      "settings": {
+        "banner_image": "shopify://shop_images/lifestyle-banner.png",
+        "image_position": "center center",
+        "eyebrow": "YOUR LIFESTYLE, OUR PRODUCTS",
+        "heading": "Small Essentials. Big Differences.",
+        "description": "<p>Thoughtfully designed products for your home, travel and everyday life.</p>",
+        "side_text": "Explore More Everyday",
+        "button_label": "Shop Lifestyle Collection",
+        "button_link": "",
+        "open_new_tab": false,
+        "background_color": "#f0f6ff",
+        "heading_color": "#0866f5",
+        "text_color": "#53657c",
+        "accent_color": "#ff9900",
+        "button_text_color": "#ffffff",
+        "corner_radius": 10,
+        "banner_height": 180,
+        "margin_top": 20,
+        "margin_bottom": 20,
+        "mobile_image_height": 190,
+        "mobile_margin_top": 12,
+        "mobile_margin_bottom": 12
+      }
+    },
+    "17926865636e31f87d": {
+      "type": "apps",
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "subheading": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": ""
+      }
+    },
+    "testimonials_pnyUnX": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_7bVRtk": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Love it so much",
+            "description": "<p>Was I in Hawaii?! No. Did I feel like I was in Hawaii?! No, because it’s snowing outside. But, would I wear this in Hawaii ❤️</p>",
+            "footer": "<p>Jared S.</p>",
+            "image_text": "",
+            "image_link": "",
+            "product": "denim-jacket"
+          }
+        },
+        "testimonial_BaC37W": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Love it so much",
+            "description": "<p>Always getting compliments from family, friends, and strangers. 🤗 🙌</p>",
+            "footer": "<p>Alyssa A.</p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_X8q9A4": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Love it so much",
+            "description": "<p>Hands down one of the best shirts I’ve ever owned.  Fits great, feels amazing, seems to stay cool and is somewhat water resistant. </p>",
+            "footer": "<p>Ben B.</p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_ef4Etp": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Love it so much",
+            "description": "<p>Was I in Hawaii?! No. Did I feel like I was in Hawaii?! No, because it’s snowing outside. But, would I wear this in Hawaii ❤️</p>",
+            "footer": "<p>Dean D. US</p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_bUi88K": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Love it so much",
+            "description": "<p>Always getting compliments from family, friends, and strangers. 🤗 🙌</p>",
+            "footer": "<p>John D.</p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        },
+        "testimonial_NMt6Em": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Love it so much",
+            "description": "<p>Hands down one of the best shirts I’ve ever owned.  Fits great, feels amazing, seems to stay cool and is somewhat water resistant. </p>",
+            "footer": "<p>Dean J.</p>",
+            "image_text": "",
+            "image_link": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_7bVRtk",
+        "testimonial_BaC37W",
+        "testimonial_X8q9A4",
+        "testimonial_ef4Etp",
+        "testimonial_bUi88K",
+        "testimonial_NMt6Em"
+      ],
+      "custom_css": [
+        ".m-svg-icon {width: 12px; height: 12px;}",
+        ".m-stars {column-gap: 2px;}",
+        "@media (min-width: 1280px) {.m-testimonials__header {margin-bottom: 40px; }}",
+        "@media (max-width: 767px) {.m-testimonials__header {margin-bottom: 24px; } .m-section__header {text-align: center; }}"
+      ],
+      "settings": {
+        "heading": "What Our Customers Say",
+        "heading_size": "h3",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "left",
+        "container": "container-fluid",
+        "color_scheme": "scheme-43672b58-572f-4ea0-a62e-78b00a5fd6cf",
+        "design": "testimonials-4",
+        "show_stars": true,
+        "autorotate": true,
+        "show_navigation": true,
+        "show_pagination": true,
+        "star_color": "#000000",
+        "item_color_scheme": "scheme-43672b58-572f-4ea0-a62e-78b00a5fd6cf",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_Bw3X8C",
+    "quikrmart_category_row_xmXezK",
+    "featured_collection_gyVyfJ",
+    "16225125199f82d8fe",
+    "featured_collection_eYNihA",
+    "lifestyle_promo_banner_LBcLLT",
+    "17926865636e31f87d",
+    "testimonials_pnyUnX"
+  ]
+}
